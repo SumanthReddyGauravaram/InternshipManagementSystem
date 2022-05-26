@@ -15,6 +15,8 @@
 		3F6FDE54283FDA1900871925 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6FDE52283FDA1900871925 /* LaunchScreen.storyboard */; };
 		3F6FDE5E283FE96500871925 /* StudentLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6FDE5D283FE96500871925 /* StudentLogin.swift */; };
 		3F6FDE60283FE98800871925 /* AdminLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6FDE5F283FE98800871925 /* AdminLogin.swift */; };
+		3F6FDE62283FEF9500871925 /* AdminRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6FDE61283FEF9500871925 /* AdminRegister.swift */; };
+		3F6FDE64283FF04B00871925 /* StudentRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6FDE63283FF04B00871925 /* StudentRegister.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		3F6FDE55283FDA1900871925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F6FDE5D283FE96500871925 /* StudentLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentLogin.swift; sourceTree = "<group>"; };
 		3F6FDE5F283FE98800871925 /* AdminLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminLogin.swift; sourceTree = "<group>"; };
+		3F6FDE61283FEF9500871925 /* AdminRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminRegister.swift; sourceTree = "<group>"; };
+		3F6FDE63283FF04B00871925 /* StudentRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentRegister.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				3F6FDE55283FDA1900871925 /* Info.plist */,
 				3F6FDE5D283FE96500871925 /* StudentLogin.swift */,
 				3F6FDE5F283FE98800871925 /* AdminLogin.swift */,
+				3F6FDE61283FEF9500871925 /* AdminRegister.swift */,
+				3F6FDE63283FF04B00871925 /* StudentRegister.swift */,
 			);
 			path = InternshipManagementSystem;
 			sourceTree = "<group>";
@@ -144,6 +150,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F6FDE62283FEF9500871925 /* AdminRegister.swift in Sources */,
+				3F6FDE64283FF04B00871925 /* StudentRegister.swift in Sources */,
 				3F6FDE4C283FDA1400871925 /* ViewController.swift in Sources */,
 				3F6FDE48283FDA1400871925 /* AppDelegate.swift in Sources */,
 				3F6FDE60283FE98800871925 /* AdminLogin.swift in Sources */,
