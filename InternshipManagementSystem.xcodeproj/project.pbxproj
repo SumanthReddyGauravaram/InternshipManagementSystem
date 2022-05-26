@@ -13,6 +13,8 @@
 		3F6FDE4F283FDA1400871925 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6FDE4D283FDA1400871925 /* Main.storyboard */; };
 		3F6FDE51283FDA1900871925 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F6FDE50283FDA1900871925 /* Assets.xcassets */; };
 		3F6FDE54283FDA1900871925 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6FDE52283FDA1900871925 /* LaunchScreen.storyboard */; };
+		3F6FDE5E283FE96500871925 /* StudentLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6FDE5D283FE96500871925 /* StudentLogin.swift */; };
+		3F6FDE60283FE98800871925 /* AdminLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6FDE5F283FE98800871925 /* AdminLogin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3F6FDE50283FDA1900871925 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F6FDE53283FDA1900871925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F6FDE55283FDA1900871925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F6FDE5D283FE96500871925 /* StudentLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentLogin.swift; sourceTree = "<group>"; };
+		3F6FDE5F283FE98800871925 /* AdminLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminLogin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				3F6FDE50283FDA1900871925 /* Assets.xcassets */,
 				3F6FDE52283FDA1900871925 /* LaunchScreen.storyboard */,
 				3F6FDE55283FDA1900871925 /* Info.plist */,
+				3F6FDE5D283FE96500871925 /* StudentLogin.swift */,
+				3F6FDE5F283FE98800871925 /* AdminLogin.swift */,
 			);
 			path = InternshipManagementSystem;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			files = (
 				3F6FDE4C283FDA1400871925 /* ViewController.swift in Sources */,
 				3F6FDE48283FDA1400871925 /* AppDelegate.swift in Sources */,
+				3F6FDE60283FE98800871925 /* AdminLogin.swift in Sources */,
+				3F6FDE5E283FE96500871925 /* StudentLogin.swift in Sources */,
 				3F6FDE4A283FDA1400871925 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
