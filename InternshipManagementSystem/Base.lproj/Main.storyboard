@@ -71,7 +71,7 @@
                         <viewLayoutGuide key="safeArea" id="XXm-5b-IVa"/>
                         <color key="backgroundColor" systemColor="systemGray4Color"/>
                     </view>
-                    <navigationItem key="navigationItem" id="GHG-jL-VdP"/>
+                    <navigationItem key="navigationItem" title="Student" id="GHG-jL-VdP"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xN6-JW-322" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -139,11 +139,11 @@
                         <viewLayoutGuide key="safeArea" id="9wl-pV-mYT"/>
                         <color key="backgroundColor" systemColor="systemGray4Color"/>
                     </view>
-                    <navigationItem key="navigationItem" id="6Nf-47-Lrb"/>
+                    <navigationItem key="navigationItem" title="Admin" id="6Nf-47-Lrb"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xDs-Yq-Ok6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-55.072463768115945" y="-67.633928571428569"/>
+            <point key="canvasLocation" x="-223" y="-68"/>
         </scene>
         <!--Admin Register-->
         <scene sceneID="QQE-h9-oYc">
@@ -265,7 +265,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AKE-EY-WLE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1288.4057971014495" y="637.5"/>
+            <point key="canvasLocation" x="-965" y="647"/>
         </scene>
         <!--ForgotPassword-->
         <scene sceneID="U6H-Wd-bVq">
@@ -310,7 +310,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="07S-Fp-Q12" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-223.18840579710147" y="646.875"/>
+            <point key="canvasLocation" x="380" y="647"/>
         </scene>
         <!--Student Register-->
         <scene sceneID="8jJ-7R-rCM">
@@ -432,12 +432,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BgD-tm-ixt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="899" y="647"/>
+            <point key="canvasLocation" x="1894" y="647"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Internship Management System-->
         <scene sceneID="ws1-Cj-v5C">
             <objects>
-                <tabBarController id="DQo-mo-f6C" sceneMemberID="viewController">
+                <tabBarController title="Internship Management System" id="DQo-mo-f6C" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Qxg-ph-7tC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -450,7 +450,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hi3-4D-Zfv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-372" y="-899"/>
+            <point key="canvasLocation" x="-75" y="-915"/>
         </scene>
         <!--Admin-->
         <scene sceneID="810-n3-Cwk">
@@ -492,7 +492,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="z7I-pX-msU"/>
+        <segue reference="21o-JZ-MZK"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="arrowshape.turn.up.backward.fill" catalog="system" width="128" height="106"/>
