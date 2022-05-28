@@ -17,6 +17,7 @@
 		3F6FDE60283FE98800871925 /* AdminLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6FDE5F283FE98800871925 /* AdminLogin.swift */; };
 		3F6FDE62283FEF9500871925 /* AdminRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6FDE61283FEF9500871925 /* AdminRegister.swift */; };
 		3F6FDE64283FF04B00871925 /* StudentRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6FDE63283FF04B00871925 /* StudentRegister.swift */; };
+		3F992CB52842A5AB00B39F55 /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F992CB42842A5AB00B39F55 /* ForgotPassword.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		3F6FDE5F283FE98800871925 /* AdminLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminLogin.swift; sourceTree = "<group>"; };
 		3F6FDE61283FEF9500871925 /* AdminRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminRegister.swift; sourceTree = "<group>"; };
 		3F6FDE63283FF04B00871925 /* StudentRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentRegister.swift; sourceTree = "<group>"; };
+		3F992CB42842A5AB00B39F55 /* ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				3F6FDE5F283FE98800871925 /* AdminLogin.swift */,
 				3F6FDE61283FEF9500871925 /* AdminRegister.swift */,
 				3F6FDE63283FF04B00871925 /* StudentRegister.swift */,
+				3F992CB42842A5AB00B39F55 /* ForgotPassword.swift */,
 			);
 			path = InternshipManagementSystem;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				3F6FDE62283FEF9500871925 /* AdminRegister.swift in Sources */,
 				3F6FDE64283FF04B00871925 /* StudentRegister.swift in Sources */,
 				3F6FDE4C283FDA1400871925 /* ViewController.swift in Sources */,
+				3F992CB52842A5AB00B39F55 /* ForgotPassword.swift in Sources */,
 				3F6FDE48283FDA1400871925 /* AppDelegate.swift in Sources */,
 				3F6FDE60283FE98800871925 /* AdminLogin.swift in Sources */,
 				3F6FDE5E283FE96500871925 /* StudentLogin.swift in Sources */,

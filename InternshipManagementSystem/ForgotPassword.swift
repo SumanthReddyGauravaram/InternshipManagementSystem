@@ -1,18 +1,14 @@
 //
-//  AdminRegister.swift
+//  ForgotPassword.swift
 //  InternshipManagementSystem
 //
-//  Created by Student on 5/26/22.
+//  Created by Student on 5/28/22.
 //
 
 import UIKit
 
-class AdminRegister: UIViewController {
+class ForgotPassword: UIViewController {
 
-    @IBAction func RegisterClick(_ sender: UIButton) {
-        
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
