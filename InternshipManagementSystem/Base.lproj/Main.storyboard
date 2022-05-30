@@ -742,6 +742,7 @@
                                 <buttonConfiguration key="configuration" style="tinted" title="Update Intership Details"/>
                                 <connections>
                                     <action selector="RegisterClick:" destination="kuP-7w-j8G" eventType="touchUpInside" id="1Wu-qh-SiM"/>
+                                    <segue destination="O7B-J8-ovH" kind="show" id="H3b-RV-XlO"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DJd-iz-PsT">
@@ -959,6 +960,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="H3b-RV-XlO"/>
         <segue reference="1rc-gC-3iK"/>
     </inferredMetricsTieBreakers>
     <resources>
