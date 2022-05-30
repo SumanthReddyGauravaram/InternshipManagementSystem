@@ -478,6 +478,22 @@
             </objects>
             <point key="canvasLocation" x="380" y="647"/>
         </scene>
+        <!--Student Information-->
+        <scene sceneID="8e2-Tm-Chf">
+            <objects>
+                <viewController id="iQC-ve-UT9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Tnn-LE-fC6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="DMs-ry-Yo7"/>
+                        <color key="backgroundColor" systemColor="systemGray4Color"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Student Information" id="hbe-YW-0nm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9pA-uY-H1j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-196" y="1365"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="MoM-8n-1Xr">
             <objects>
@@ -589,6 +605,78 @@
             </objects>
             <point key="canvasLocation" x="1908.6956521739132" y="1364.7321428571429"/>
         </scene>
+        <!--Application Status/Edit-->
+        <scene sceneID="shH-7e-wGr">
+            <objects>
+                <viewController id="O7B-J8-ovH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7rI-Oh-rBg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dfU-Ml-JVq">
+                                <rect key="frame" x="310" y="88" width="84" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Logout">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="18"/>
+                                </buttonConfiguration>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Application ID:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NSo-h0-0H6">
+                                <rect key="frame" x="51" y="176" width="132" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AHP-0D-mTJ">
+                                <rect key="frame" x="197" y="178" width="148" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CzC-tS-WSe">
+                                <rect key="frame" x="139" y="251" width="136" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Get Status"/>
+                                <connections>
+                                    <action selector="RegisterClick:" destination="kuP-7w-j8G" eventType="touchUpInside" id="qEW-Ff-CZd"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="hsG-Sh-26C">
+                                <rect key="frame" x="51" y="327" width="294" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="flt-cL-OQ2">
+                                        <rect key="frame" x="0.0" y="44.5" width="294" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="flt-cL-OQ2" id="5j4-92-Y0J">
+                                            <rect key="frame" x="0.0" y="0.0" width="294" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bA8-Gn-RMF">
+                                <rect key="frame" x="104" y="607" width="206" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Update Application"/>
+                                <connections>
+                                    <action selector="RegisterClick:" destination="kuP-7w-j8G" eventType="touchUpInside" id="oVN-Nn-xIb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="jao-T9-Qzi"/>
+                        <color key="backgroundColor" systemColor="systemGray4Color"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Application Status/Edit" id="dSA-D9-qvm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xhx-YO-N9A" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2586.9565217391305" y="1364.7321428571429"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="SUQ-Vh-1Z7">
             <objects>
@@ -634,6 +722,7 @@
                                 <buttonConfiguration key="configuration" style="tinted" title="Application Status"/>
                                 <connections>
                                     <action selector="RegisterClick:" destination="kuP-7w-j8G" eventType="touchUpInside" id="oCy-uV-z56"/>
+                                    <segue destination="O7B-J8-ovH" kind="show" id="NjP-mS-OfE"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8oy-yI-rds">
@@ -643,6 +732,7 @@
                                 <buttonConfiguration key="configuration" style="tinted" title="Student Information"/>
                                 <connections>
                                     <action selector="RegisterClick:" destination="kuP-7w-j8G" eventType="touchUpInside" id="tTH-I3-ahx"/>
+                                    <segue destination="iQC-ve-UT9" kind="show" id="Cs9-Vj-34g"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qPp-Dg-a3D">
