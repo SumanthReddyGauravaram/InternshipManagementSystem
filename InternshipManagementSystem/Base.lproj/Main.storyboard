@@ -13,7 +13,7 @@
         <!--Student-->
         <scene sceneID="6Mg-0i-z0V">
             <objects>
-                <viewController title="Student" id="OCP-Uq-nDk" customClass="StudentLogin" customModule="InternshipManagementSystem" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="OCP-Uq-nDk" customClass="StudentLogin" customModule="InternshipManagementSystem" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9k2-HX-amn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -71,6 +71,9 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="132.5" height="31"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="tinted" title="Login"/>
+                                                        <connections>
+                                                            <segue destination="wnO-hf-2dY" kind="show" id="umM-EM-UvP"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="weV-Ej-EV0">
                                                         <rect key="frame" x="162.5" y="0.0" width="132.5" height="31"/>
@@ -230,7 +233,7 @@
         <!--Admin Dashboard-->
         <scene sceneID="tol-yI-UGh">
             <objects>
-                <viewController title="Admin Dashboard" id="Bf0-dE-unw" sceneMemberID="viewController">
+                <viewController title="Admin Dashboard" id="Bf0-dE-unw" customClass="AdminDashboard" customModule="InternshipManagementSystem" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="okz-2e-afx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -287,9 +290,17 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xrj-4O-gta">
-                                <rect key="frame" x="194" y="114" width="172" height="40"/>
+                                <rect key="frame" x="45" y="114" width="172" height="40"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qlu-LY-prB">
+                                <rect key="frame" x="282" y="88" width="84" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Logout">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="18"/>
+                                </buttonConfiguration>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="AxN-XL-yir"/>
                         <color key="backgroundColor" systemColor="systemGray4Color"/>
@@ -422,10 +433,10 @@
             </objects>
             <point key="canvasLocation" x="-546" y="647"/>
         </scene>
-        <!--ForgotPassword-->
+        <!--Reset Password-->
         <scene sceneID="U6H-Wd-bVq">
             <objects>
-                <viewController title="ForgotPassword" id="un9-D6-9rq" customClass="ForgotPassword" customModule="InternshipManagementSystem" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="un9-D6-9rq" customClass="ForgotPassword" customModule="InternshipManagementSystem" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1PN-tf-es5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -467,10 +478,221 @@
             </objects>
             <point key="canvasLocation" x="380" y="647"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="MoM-8n-1Xr">
+            <objects>
+                <viewController id="HEN-Fb-2V6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aVQ-ac-V5U">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Academic Credit Internship" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xYl-25-CAE">
+                                <rect key="frame" x="95" y="174" width="224" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="naJ-ul-Btx">
+                                <rect key="frame" x="103" y="258" width="208" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Attach Offer Letter"/>
+                                <connections>
+                                    <action selector="RegisterClick:" destination="kuP-7w-j8G" eventType="touchUpInside" id="YWN-dd-yjQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="doN-MV-7tQ">
+                                <rect key="frame" x="310" y="88" width="84" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Logout">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="18"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ABm-VS-iyQ"/>
+                        <color key="backgroundColor" systemColor="systemGray4Color"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="NtM-Bg-bkJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g8V-u0-F9l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="531.8840579710145" y="1359.375"/>
+        </scene>
+        <!--Add/Drop Application Form-->
+        <scene sceneID="FJa-oX-JgD">
+            <objects>
+                <viewController id="5Ob-Cw-Ehu" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ABA-mp-uwA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Aw-ak-CT6">
+                                <rect key="frame" x="308" y="88" width="84" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Logout">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="18"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cGk-io-4UD">
+                                <rect key="frame" x="103" y="181" width="208" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Add/Drop Application"/>
+                                <connections>
+                                    <action selector="RegisterClick:" destination="kuP-7w-j8G" eventType="touchUpInside" id="qua-wM-gat"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7cy-55-czQ"/>
+                        <color key="backgroundColor" systemColor="systemGray4Color"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Add/Drop Application Form" id="NZt-m9-exF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HAn-sb-k1X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1214.4927536231885" y="1364.7321428571429"/>
+        </scene>
+        <!--Intership Agreement-->
+        <scene sceneID="OKY-Di-cRl">
+            <objects>
+                <viewController id="H4n-6u-sud" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EHR-sB-qh5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B5U-FO-N3i">
+                                <rect key="frame" x="310" y="88" width="84" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Logout">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="18"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k33-tE-LoU">
+                                <rect key="frame" x="100" y="171" width="215" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Download Form ↓">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="18"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="caO-KH-KPd"/>
+                        <color key="backgroundColor" systemColor="systemGray4Color"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Intership Agreement" id="3mB-Xh-Qa5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aL4-bY-Tn1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1908.6956521739132" y="1364.7321428571429"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="SUQ-Vh-1Z7">
+            <objects>
+                <viewController id="wnO-hf-2dY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pIp-Cd-Pg7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f1c-z1-2nG">
+                                <rect key="frame" x="162" y="138" width="90" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Register"/>
+                                <connections>
+                                    <action selector="RegisterClick:" destination="kuP-7w-j8G" eventType="touchUpInside" id="Uzt-7C-XeR"/>
+                                    <segue destination="HEN-Fb-2V6" kind="show" id="4Tf-4O-k4d"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PiQ-kO-bLq">
+                                <rect key="frame" x="102" y="305" width="208" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Add/Drop applications"/>
+                                <connections>
+                                    <action selector="RegisterClick:" destination="kuP-7w-j8G" eventType="touchUpInside" id="hdf-9w-mR1"/>
+                                    <segue destination="5Ob-Cw-Ehu" kind="show" id="v7Q-AS-8jZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wgo-Qf-Ow2">
+                                <rect key="frame" x="102" y="396" width="208" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Internship Agreement"/>
+                                <connections>
+                                    <action selector="RegisterClick:" destination="kuP-7w-j8G" eventType="touchUpInside" id="2w5-Bm-wKo"/>
+                                    <segue destination="H4n-6u-sud" kind="show" id="8un-dO-AQk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LiK-wr-jCY">
+                                <rect key="frame" x="102" y="488" width="208" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Application Status"/>
+                                <connections>
+                                    <action selector="RegisterClick:" destination="kuP-7w-j8G" eventType="touchUpInside" id="oCy-uV-z56"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8oy-yI-rds">
+                                <rect key="frame" x="102" y="583" width="208" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Student Information"/>
+                                <connections>
+                                    <action selector="RegisterClick:" destination="kuP-7w-j8G" eventType="touchUpInside" id="tTH-I3-ahx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qPp-Dg-a3D">
+                                <rect key="frame" x="74" y="680" width="266" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Update Intership Details"/>
+                                <connections>
+                                    <action selector="RegisterClick:" destination="kuP-7w-j8G" eventType="touchUpInside" id="1Wu-qh-SiM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DJd-iz-PsT">
+                                <rect key="frame" x="50" y="4" width="344" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Logout">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="19"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V8H-si-S8E">
+                                <rect key="frame" x="295" y="88" width="84" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Logout">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="18"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8i2-kW-xGR">
+                                <rect key="frame" x="36" y="221" width="343" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Send Intership Details into Catpaws"/>
+                                <connections>
+                                    <action selector="RegisterClick:" destination="kuP-7w-j8G" eventType="touchUpInside" id="lKg-FY-lgw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="xtf-kd-VJp"/>
+                        <color key="backgroundColor" systemColor="systemGray4Color"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="pVu-3g-8tc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Uk-41-c04" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1176.8115942028987" y="646.875"/>
+        </scene>
         <!--Student Register-->
         <scene sceneID="8jJ-7R-rCM">
             <objects>
-                <viewController title="Student Register" id="vxp-I2-8D0" sceneMemberID="viewController">
+                <viewController id="vxp-I2-8D0" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="M8u-9L-Yhq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -647,7 +869,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="21o-JZ-MZK"/>
+        <segue reference="1rc-gC-3iK"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="arrowshape.turn.up.backward.fill" catalog="system" width="128" height="106"/>
