@@ -108,7 +108,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="XXm-5b-IVa"/>
-                        <color key="backgroundColor" systemColor="systemGray4Color"/>
+                        <color key="backgroundColor" red="0.20392156862745098" green="0.43137254901960786" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="DQ0-dJ-Bez" firstAttribute="centerY" secondItem="9k2-HX-amn" secondAttribute="centerY" id="66c-lf-MAp"/>
                             <constraint firstItem="DQ0-dJ-Bez" firstAttribute="centerX" secondItem="9k2-HX-amn" secondAttribute="centerX" id="6Tz-yz-GPg"/>
@@ -218,7 +218,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="9wl-pV-mYT"/>
-                        <color key="backgroundColor" systemColor="systemGray4Color"/>
+                        <color key="backgroundColor" red="0.20392156862745098" green="0.43137254901960786" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="OsU-v5-hP4" firstAttribute="centerY" secondItem="D0m-Pp-ist" secondAttribute="centerY" id="7yl-bz-pGP"/>
                             <constraint firstItem="OsU-v5-hP4" firstAttribute="centerX" secondItem="D0m-Pp-ist" secondAttribute="centerX" id="vwZ-lD-n4Q"/>
@@ -303,7 +303,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="AxN-XL-yir"/>
-                        <color key="backgroundColor" systemColor="systemGray4Color"/>
+                        <color key="backgroundColor" red="0.20392156862745098" green="0.43137254901960786" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Admin Dashboard" id="NTX-Xb-AIW"/>
                 </viewController>
@@ -421,7 +421,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="sQ2-OM-fYI"/>
-                        <color key="backgroundColor" systemColor="systemGray4Color"/>
+                        <color key="backgroundColor" red="0.20392156862745098" green="0.43137254901960786" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Admin Register" id="acf-jM-PLL">
                         <barButtonItem key="backBarButtonItem" title="Back" id="ZfK-vZ-I7V">
@@ -465,7 +465,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="tjw-bv-NRJ"/>
-                        <color key="backgroundColor" systemColor="systemGray4Color"/>
+                        <color key="backgroundColor" red="0.20392156862745098" green="0.43137254901960786" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Reset Password" largeTitleDisplayMode="always" id="MN4-mb-0AY">
                         <barButtonItem key="backBarButtonItem" title="Back" style="plain" id="9Ce-uX-bMf">
@@ -486,7 +486,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="DMs-ry-Yo7"/>
-                        <color key="backgroundColor" systemColor="systemGray4Color"/>
+                        <color key="backgroundColor" red="0.20392156862745098" green="0.43137254901960786" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Student Information" id="hbe-YW-0nm"/>
                 </viewController>
@@ -513,7 +513,10 @@
                                 <rect key="frame" x="103" y="258" width="208" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="Attach Offer Letter"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Attach Offer Letter">
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" systemColor="tintColor"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="RegisterClick:" destination="kuP-7w-j8G" eventType="touchUpInside" id="YWN-dd-yjQ"/>
                                 </connections>
@@ -528,7 +531,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ABm-VS-iyQ"/>
-                        <color key="backgroundColor" systemColor="systemGray4Color"/>
+                        <color key="backgroundColor" red="0.20392156862745098" green="0.43137254901960786" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="NtM-Bg-bkJ"/>
                 </viewController>
@@ -563,7 +566,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="7cy-55-czQ"/>
-                        <color key="backgroundColor" systemColor="systemGray4Color"/>
+                        <color key="backgroundColor" red="0.20392156862745098" green="0.43137254901960786" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Add/Drop Application Form" id="NZt-m9-exF"/>
                 </viewController>
@@ -597,7 +600,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="caO-KH-KPd"/>
-                        <color key="backgroundColor" systemColor="systemGray4Color"/>
+                        <color key="backgroundColor" red="0.20392156862745098" green="0.43137254901960786" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Intership Agreement" id="3mB-Xh-Qa5"/>
                 </viewController>
@@ -669,7 +672,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jao-T9-Qzi"/>
-                        <color key="backgroundColor" systemColor="systemGray4Color"/>
+                        <color key="backgroundColor" red="0.20392156862745098" green="0.43137254901960786" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Application Status/Edit" id="dSA-D9-qvm"/>
                 </viewController>
@@ -772,7 +775,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xtf-kd-VJp"/>
-                        <color key="backgroundColor" systemColor="systemGray4Color"/>
+                        <color key="backgroundColor" red="0.20392156862745098" green="0.43137254901960786" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="pVu-3g-8tc"/>
                 </viewController>
@@ -890,7 +893,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="8kI-h8-LEc"/>
-                        <color key="backgroundColor" systemColor="systemGray4Color"/>
+                        <color key="backgroundColor" red="0.20392156862745098" green="0.43137254901960786" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Student Register" largeTitleDisplayMode="always" id="Vho-xw-U1M">
                         <barButtonItem key="backBarButtonItem" title="Back" id="3Q1-z8-GR4">
@@ -1010,7 +1013,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="sud-SM-RKX"/>
-                        <color key="backgroundColor" systemColor="systemGray4Color"/>
+                        <color key="backgroundColor" red="0.21393302083015442" green="0.4317212700843811" blue="0.34492373466491699" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="ao7-VB-Q64" firstAttribute="centerY" secondItem="Evu-so-fgl" secondAttribute="centerY" id="X3B-GJ-d17"/>
                             <constraint firstItem="ao7-VB-Q64" firstAttribute="centerX" secondItem="Evu-so-fgl" secondAttribute="centerX" id="bBj-RK-xnQ"/>
@@ -1082,7 +1085,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="H3b-RV-XlO"/>
-        <segue reference="1rc-gC-3iK"/>
+        <segue reference="21o-JZ-MZK"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="arrowshape.turn.up.backward.fill" catalog="system" width="128" height="106"/>
@@ -1092,8 +1095,8 @@
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-        <systemColor name="systemGray4Color">
-            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
